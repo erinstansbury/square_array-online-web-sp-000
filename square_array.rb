@@ -2,7 +2,8 @@ def square_array(array)
   array.each do |arr|
     count = 0
     while count <= array.length-1
-      array[count]**2
+      total = array[count]*array[count]
+      return total
       count += 1
     end
   end
